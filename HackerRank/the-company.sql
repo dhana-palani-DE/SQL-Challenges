@@ -1,5 +1,5 @@
-/* New-Company challenge code is from HackerrankSQL
-Provided the link in this path https://www.hackerrank.com/challenges/the-company/problem */
+/* New-Company challenge is from Hackerrank SQL Challenges. 
+I have Provided the link to the problem description in this path https://www.hackerrank.com/challenges/the-company/problem */
 select c.company_code, 
        c.founder,
        count(DISTINCT LM.Lead_Manager_Code) as [Lead_Manager_Code_Count],
