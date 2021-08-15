@@ -1,0 +1,8 @@
+/*
+Link to the problem statement
+https://leetcode.com/problems/rank-scores/
+*/
+
+select Score, DENSE_rank() OVER (ORDER BY SCORE DESC) Rank
+from scores 
+order by score desc
